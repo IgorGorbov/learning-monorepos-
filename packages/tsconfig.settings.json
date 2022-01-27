@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "composite": true,
+    "types": [],
+    "sourceMap": true,
     "target": "ES2018",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "declaration": true
-  },
-  "exclude": ["**/node_modules/**"],
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  }
 }
